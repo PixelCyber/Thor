@@ -4,16 +4,16 @@
 
 iOS 端强力专业的 HTTP 抓包分析工具 - Thor
 
+<!-- [去 App store 下载](https://itunes.apple.com/cn/app/thor-pro/id1210562295?mt=8) -->
+
+其它语言: [English](README.md).
+
+
 ### 免费参加 TestFlight 公测的途径
 
 * 发送要参加公测的邮箱地址到邮箱 beta@pixelcyber.com
 
 * [创建 issues](https://github.com/PixelCyber/Thor/issues/new) 并填写要参加公测的邮箱地址
-
-
-<!-- [去 App store 下载](https://itunes.apple.com/cn/app/thor-pro/id1210562295?mt=8) -->
-
-其它语言: [English](README.md).
 
 
 ### 功能
