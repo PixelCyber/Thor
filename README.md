@@ -34,7 +34,7 @@ Read in other language: [简体中文](README.zh-cn.md).
 
 * thousands of packets logged without pressure
 
-* run Thor in background all day without network issues
+* keeping Thor active all day without any side effect
 
 
 #### Auto decoding packet content
