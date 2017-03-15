@@ -11,6 +11,8 @@ iOS 端强力专业的 HTTP 抓包分析工具 - Thor
 
 ### 免费参加 TestFlight 公测的途径
 
+* 公测邀请将会在本周日（2017.3.19）晚上10点截止，请抓紧时间申请
+
 * 发送要参加公测的邮箱地址到邮箱 beta@pixelcyber.com
 
 * [创建 issues](https://github.com/PixelCyber/Thor/issues/new) 并填写要参加公测的邮箱地址
