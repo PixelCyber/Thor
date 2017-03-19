@@ -11,8 +11,6 @@ Read in other language: [简体中文](README.zh-cn.md).
 
 ### Join beta test on TestFlight for free
 
-* beta test requesting will be closed at 10:00 pm on this weekend (2017.3.19).
-
 * Send your email address to beta@pixelcyber.com.
 
 * [Create issues](https://github.com/PixelCyber/Thor/issues/new) and paste your email address.
@@ -51,7 +49,8 @@ Read in other language: [简体中文](README.zh-cn.md).
 
 #### Realtime sniffer
 
-* monitor packet records update in real-time
+* packet status update in real-time
+* log latest packets on widget in notification center
 
 
 **HTTPS decoding is on the way**
