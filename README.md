@@ -4,16 +4,18 @@
 
 HTTP sniffer tool on iOS - Thor，for developers.
 
-<!-- [Download from App store](https://itunes.apple.com/us/app/thor-pro/id1210562295?mt=8) -->
+[Download from App store](https://itunes.apple.com/app/id1210562295)
 
 Read in other language: [简体中文](README.zh-cn.md).
 
 
 ### Join beta test on TestFlight for free
 
-* Send your email address to beta@pixelcyber.com.
+* Next public test is coming soon.
 
-* [Create issues](https://github.com/PixelCyber/Thor/issues/new) and paste your email address.
+<!-- * Send your email address to beta@pixelcyber.com. -->
+
+<!-- * [Create issues](https://github.com/PixelCyber/Thor/issues/new) and paste your email address. -->
 
 
 ### Features
