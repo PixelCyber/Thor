@@ -6,12 +6,14 @@ iOS 端强力专业的 HTTP 抓包分析工具 - Thor v1.0.0 已上架 AppStore
 
 [去 App store 下载](https://itunes.apple.com/app/id1210562295)
 
+欢迎大家加入 Thor 官方 qq 群：577198244，探讨 Thor 的各种用法
+
 其它语言: [English](README.md).
 
 
-### 免费参加 TestFlight 公测的途径
+<!-- ### 免费参加 TestFlight 公测的途径 -->
 
-* 敬请期待下个重要版本的公测活动，欢迎 star 收藏本页，以免错过公测信息
+<!-- * 敬请期待下个重要版本的公测活动，欢迎 star 收藏本页，以免错过公测信息 -->
 
 <!-- * 发送要参加公测的邮箱地址到邮箱 beta@pixelcyber.com -->
 
