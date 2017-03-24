@@ -24,6 +24,8 @@ iOS 端强力专业的 HTTP 抓包分析工具 - Thor v1.0.0 已上架 AppStore
 
 * [新浪微博 APP GIF 图片抓取](iOS_Thor_GIF_weibo/iOS_Thor_GIF_weibo.md)
 
+* [抓取秒拍视频](http://v.youku.com/v_show/id_XMjY1OTM3MTQ0NA==.html?f=49309652&spm=a2hzp.8244740.userfeed.5!2~5~5~5!3~5~A)
+
 
 ### 功能
 
