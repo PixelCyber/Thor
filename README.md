@@ -6,7 +6,7 @@ HTTP sniffer tool on iOS - Thor，for developers.
 
 [Download from App store](https://itunes.apple.com/app/id1210562295)
 
-Read in other language: [简体中文](README.zh-cn.md).
+Read in other language: [简体中文](README-zh-Hans.md).
 
 
 ### Join beta test on TestFlight for free
