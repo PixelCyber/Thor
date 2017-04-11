@@ -20,7 +20,7 @@ iOS 端强力专业的 HTTP 抓包分析工具 - Thor v1.0.0 已上架 AppStore
 <!-- * [创建 issues](https://github.com/PixelCyber/Thor/issues/new) 并填写要参加公测的邮箱地址 -->
 
 
-[**Thor 的使用技巧 >>**](demo/demo_list.md)
+[**Thor 的使用技巧 >>**](demo-zh-Hans/demo_list.md)
 
 
 ### 功能
