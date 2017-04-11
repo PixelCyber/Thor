@@ -20,39 +20,39 @@ Read in other language: [简体中文](README.zh-cn.md).
 
 ### Features
 
-#### Image perview support
+#### Realtime sniffer
 
-* `jpg, png, gif, webp, apng, jp2, tiff, bmp, ico, icns`
-
-* `svg, psd`
-
-
-#### Compression file extract support
-
-* `zip, rar, 7z, tgz, tar, bz, tbz, gz`
+- packet status updated in real-time
+- log latest packets on widget in notification center
 
 
 #### Excellent performance
 
-* thousands of packets logged without pressure
-
-* keeping Thor active all day without any side effect
+- thousands of packets logged without pressure
+- keeping Thor active all day without any side effect
 
 
 #### Auto decoding packet content
 
-* decoding HTTP body to human readable data
+- decoding HTTP body to human readable data
 
 
 #### Flexible filter rules
 
-* filter packets by domains, keywords
+- filter packets by domains, keywords
 
 
-#### Realtime sniffer
+#### Image perview support
 
-* packet status update in real-time
-* log latest packets on widget in notification center
+- `jpg, png, gif, webp, apng, jp2, tiff, bmp, ico, icns, svg, psd`
 
+
+#### Compression file extract (password supported)
+
+- `zip, rar, 7z, tgz, tar, bz, tbz, gz`
+
+
+
+**TCP and UDP traffic can't be sniffed so far.**
 
 **HTTPS decoding is on the way**
