@@ -1,5 +1,6 @@
-﻿# iOS 端使用 Thor 抓包微博 GIF 图
+﻿title: 抓取微博 GIF 图
 
+# iOS 端使用 Thor 抓包微博 GIF 图
 
 
 公测时有小伙伴说不知道 `Thor` 怎么用，本文简单介绍下用 `Thor` 抓取微博 `GIF` 图。（同理，抓取视频之类的，或者其它 APP 的内容）
