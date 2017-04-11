@@ -1,4 +1,4 @@
-# Thor for iOS
+## Thor for iOS
 
 ![](thor_logo.png)
 
