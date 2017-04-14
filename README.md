@@ -11,11 +11,9 @@ Read in other language: [简体中文](README-zh-Hans.md).
 
 ### Join beta test on TestFlight for free
 
-* Next public test is coming soon.
+* Send your email address to beta@pixelcyber.com.
 
-<!-- * Send your email address to beta@pixelcyber.com. -->
-
-<!-- * [Create issues](https://github.com/PixelCyber/Thor/issues/new) and paste your email address. -->
+* [Create issues](https://github.com/PixelCyber/Thor/issues/new) and paste your email address.
 
 
 ### Features
