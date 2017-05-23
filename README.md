@@ -1,8 +1,10 @@
 ## Thor for iOS
 
-![](thor_logo.png)
+![](thor_logo.jpg)
 
-HTTP sniffer tool on iOS - Thor，for developers.
+HTTPS sniffing and analyzing tool on iOS - Thor，for developers.
+
+HTTPS Decryption supported.
 
 [Download from App store](https://itunes.apple.com/app/id1210562295)
 
@@ -22,12 +24,14 @@ Read in other language: [简体中文](README-zh-Hans.md).
 
 - packet status updated in real-time
 - log latest packets on widget in notification center
+- split screen on iPad
 
 
 #### Excellent performance
 
 - thousands of packets logged without pressure
 - keeping Thor active all day without any side effect
+- decrypting https traffic in real-time
 
 
 #### Auto decoding packet content
@@ -52,5 +56,3 @@ Read in other language: [简体中文](README-zh-Hans.md).
 
 
 **TCP and UDP traffic can't be sniffed so far.**
-
-**HTTPS decoding is on the way**
