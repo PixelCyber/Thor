@@ -23,6 +23,8 @@ Thor 实现的 HTTPS 解析方式是 MITM （中间人欺骗）：需要用 Thor
 
 总之 HTTPS MITM 不是万能的，望知晓。
 
+[HTTPS MITM 解析失败的示例](touch https_mitm_fail.md)
+
 
 ### 1、关于抓到的数据在哪查看，以及怎么保存的问题
 
