@@ -71,7 +71,25 @@ Thor 实现的 HTTPS 解析方式是 MITM （中间人欺骗）：需要用 Thor
 * URL Scheme：配合 workflow 等三方工具使用，可以达到*啧啧称奇*的自动化效果。
 
 
-### 5、参考教程
+### 5、常见问题
+
+* [App 中的音视频无法抓取](qsa.md/#1)
+
+* [如何在过滤器中设置更全面的参数](qsa.md/#2)
+
+* [iOS9 抓包秒断](qsa.md/#3)
+
+* [手机上抓到的商店 ipa 为什么不能安装](qsa.md/#4)
+
+* [iOS11 证书无法信任](qsa.md/#5)
+
+
+### 6、参考教程
+
+* 微信公众号『艾橙科技』的教程
+
+	* [Thor 新手教程一](http://mp.weixin.qq.com/s/ixebNPUDewr1safroXVbIQ)
+	* [Thor 新手教程二](http://mp.weixin.qq.com/s/XAFCl0zrODptuvgRrsR2xQ)
 
 * [新浪微博 APP GIF 图片抓取](iOS_Thor_GIF_weibo/iOS_Thor_GIF_weibo.md)
 
