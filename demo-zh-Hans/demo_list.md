@@ -91,6 +91,8 @@ Thor 实现的 HTTPS 解析方式是 MITM （中间人欺骗）：需要用 Thor
 	* [Thor 新手教程一](http://mp.weixin.qq.com/s/ixebNPUDewr1safroXVbIQ)
 	* [Thor 新手教程二](http://mp.weixin.qq.com/s/XAFCl0zrODptuvgRrsR2xQ)
 
+* [抓取『强』外的视频 by 贝多拉拉@鲜柚](http://i.apptao.com/s/405981958)
+
 * [新浪微博 APP GIF 图片抓取](iOS_Thor_GIF_weibo/iOS_Thor_GIF_weibo.md)
 
 * [抓取秒拍视频](http://v.youku.com/v_show/id_XMjY1OTM3MTQ0NA==.html?f=49309652&spm=a2hzp.8244740.userfeed.5!2~5~5~5!3~5~A)
