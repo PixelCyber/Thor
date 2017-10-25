@@ -17,7 +17,7 @@ Shu 的长期目标是：万能文件查看器
 Shu 必须遵守苹果的规则，不会使用助手应用那样的私有 api 或者越狱功能，因此只能本地安装电脑 itunes 或者开发者测试分发的 ipa 文件。
 
 
-#### 本地安装 ipa 为什么要装 SSL 证书
+#### 1、本地安装 ipa 为什么要装 SSL 证书
 
 Shu 实现的本地 ipa 安装是基于 iOS 系统的 ad-hoc 分发技术，该技术要求 ipa 的配置 plist 及 ipa 本身的地址必须是 HTTPS 的，Shu 本地启动了一个 HTTPS 服务，HTTPS 服务当然需要一个 SSL 证书。
 
