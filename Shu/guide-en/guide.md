@@ -1,65 +1,45 @@
-## Shu 的使用技巧
-
-Shu 现在是一个常用文件查看 + 轻量单线程 http 下载工具
-
-查看器即 Viewer，所以并不是 Editor 或者 Manager，可以把 Shu 作为手机上的预览应用使用。
-
-Shu 的长期目标是：万能文件查看器
+## Guide for Shu 
 
 
-### Shu 的 HTTP 下载
+### File Sharing
 
-轻量单线程 HTTP 下载，不支持自动解析网页中的链接
+#### 1. Mac/PC <--> Shu
 
+* iTunes File Sharing: better performance for huge files.
+`Go to: Mac/PC > iTunes > Your iOS device > File Sharing > Apps > Shu`
 
-<!-- ### 不支持 ipa 安装
+* WiFi File Sharing: convenient sharing between devices in the same LAN.
 
-### Shu 不是助手类 App
+* Files in Shu -> Sharing: Select files in Shu "File" > Add to "Shared Folder"
 
-Shu 必须遵守苹果的规则，不会使用助手应用那样的私有 api 或者越狱功能，因此只能本地安装电脑 itunes 或者开发者测试分发的 ipa 文件。
-
-
-#### 1、本地安装 ipa 为什么要装 SSL 证书
-
-Shu 实现的本地 ipa 安装是基于 iOS 系统的 ad-hoc 分发技术，该技术要求 ipa 的配置 plist 及 ipa 本身的地址必须是 HTTPS 的，Shu 本地启动了一个 HTTPS 服务，HTTPS 服务当然需要一个 SSL 证书。
+*Notice：Files in "Shared Folder" can shared with  iTunes or WiFi.*
 
 
-#### 1、用 Thor 等在手机商店抓到的 ipa 文件为什么用 Shu 安装后会闪退
+#### 2. Shu <--> Other Apps
 
-本来手机商店上的包是不能安装的，是 Shu 经过努力让它实现了安装，但是还有问题没解决：
+* Files in Other Apps -> Shu:
+`Find export/share entry in other Apps > "Open in Shu" or "Copy to Shu"`
 
-* 要全新安装抓到的才行，更新安装的是增量包，不能装 
+* Photos -> Shu:
+`Select picturs in Photos > Open in Shu > then you can epxort all pictures as a zip file`
 
-* ipa 有签名，但是没生成帐号验证文件
+* "File" app on iOS11 -> Shu: drag files in "File" app to Shu directory.
 
-* 有高度压缩，要标准化才能安装
+* Shu -> Other Apps: Select files > export > choose a app in activity.
 
-* 现在已经调研到了安装成功，但是因为第二点的原因，安装好以后打开闪退（以后有时间再研究）
-
-
-**声明：手机商店抓到的 ipa 安装闪退既不是 Thor 的问题，也不是 Shu 的问题：抓到的手机商店 ipa 有没有 Thor 它都是那样，Thor 只是让大家有机会看到客观现实，抓到的 ipa 本身就是高度压缩且缺少重要文件，即不是一个正规的 ipa 包，Shu 当然也不能直接安装。**
+* Share with iTunes or WiFi, if you want to export huge files.*
 
 
 
-#### 2、遇到不能安装的 ipa 如何判断问题
+### HTTP downloading
 
-* 如果 Shu 内测用户遇到装不了的 ipa ，可以尝试用电脑上的 Itunes 或者 Apple Configurator 2 来安装 ，或者别的工具安装 。如果也安装不了，那么结论就很明显了：Shu 装不了很正常。
+* Detect download url in pasteboard automatically.
 
-* Shu 实现的 ipa 安装是正常合法方式的 OTA 安装，其它助手类的 ipa 安装是用的苹果禁止的私有 api。
+* Copy links in other apps > then launch Shu 
 
-* Shu 只能做到：在手机上安装自己知道账号密码的正规商店, tf, 测试，企业 ipa 『无修改包』。
+* Export links in other apps  > Open in Shu
 
+* Custom request headers
 
-#### 3、安装正规商店（非手机商店） ipa 后打开闪退或者输入账号后闪退
-
-闪退是因为 ipa 安装后启动时会进行商店权限验证，如果输入的帐号或者内置的账号本身就不匹配，系统当然验权失败从而闪退。
-
-*总之：Shu 只负责安装过程，安装开始后，控制权交给系统，就跟 Shu 没有一点关系了，如装好之后的各种问题，都跟 Shu 本身没有必然关系。* -->
-
-
-<!-- #### 4、参考教程
-
-* [ipa 安装视频一](http://v.youku.com/v_show/id_XMzA0Nzc1MjM0NA==.html?spm=a2h3j.8428770.3416059.1)
-* [ipa 安装视频二](http://v.youku.com/v_show/id_XMzA0Nzc1NDU2NA==.html?spm=a2h3j.8428770.3416059.1) -->
 
 
