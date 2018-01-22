@@ -17,7 +17,7 @@ Read in other language: [简体中文](README-zh-Hans.md).
 
 ### Apply for a free trial in TestFlight
 
-- Send a email to beta@pixelcyber.com.
+- [https://goo.gl/forms/yjFGtkSQl87tbZV93](https://goo.gl/forms/yjFGtkSQl87tbZV93)
 
 
 ### Features
