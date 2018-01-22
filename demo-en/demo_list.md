@@ -16,7 +16,7 @@ HTTPS decryption need the "Thor SSL CA" installed and trusted by iOS system to p
 
 #### Trust "Thor SSL CA" in iOS system
 
-You need trust a CA manully since iOS11 after it was installed in `Profiles`, as below
+You need trust a CA manully after it was installed in `Profiles` since iOS11, as below
 
 
 `Settings > General > About > Certificate Trust Settings`
