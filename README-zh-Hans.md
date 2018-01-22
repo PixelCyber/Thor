@@ -3,15 +3,13 @@
 ![](thor_logo.jpg)
 
 iOS 端强力专业的 HTTPS 抓包分析工具 - Thor
+
 [去 App store 下载](https://itunes.apple.com/app/id1210562295)
 
 其它语言: [English](README.md).
 
 
-欢迎大家交流讨论抓包技巧
-[官推](https://twitter.com/thor_pixelcyber)
-[tg 群](https://t.me/thorshu)
-[tg 频道](https://t.me/thornotice)
+欢迎大家交流讨论抓包技巧：[官推](https://twitter.com/thor_pixelcyber)、[tg 群](https://t.me/thorshu)、[tg 频道](https://t.me/thornotice)
 
 
 ### 特点
