@@ -20,6 +20,13 @@ iOS 端强力专业的 HTTPS 抓包分析工具 - Thor
 - 超强的性能和高稳定性让 iOS9 也能发挥极致
 
 
+![](https://is1-ssl.mzstatic.com/image/thumb/Purple111/v4/61/0f/87/610f87ff-4c81-fcc3-4b38-58bce34eed9b/source/230x0w.jpg)
+![](https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/0c/f7/b1/0cf7b1f4-9a19-271b-2172-8e3ec941c9af/source/230x0w.jpg)
+![](https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/4b/f9/8f/4bf98ffb-1ab4-6d0b-2a04-1da90cdf6cd6/source/230x0w.jpg)
+![](https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/b0/f2/44/b0f2446a-ca64-7d38-ec88-90b339b431f6/source/230x0w.jpg)
+![](https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/19/a1/d0/19a1d063-2c53-1283-d123-1814e2ef082a/source/230x0w.jpg)
+
+
 ### 免费参加 TestFlight 体验 Thor 途径
 
 - 填写问卷：[https://wj.qq.com/s/1607760/e57d](https://wj.qq.com/s/1607760/e57d)
