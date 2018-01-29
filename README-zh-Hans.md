@@ -6,6 +6,8 @@ iOS 端强力专业的 HTTPS 抓包分析工具 - Thor
 
 [去 App store 下载](https://itunes.apple.com/app/id1210562295)
 
+[Product Hunt 应用主页](https://www.producthunt.com/posts/thor)
+
 其它语言: [English](README.md).
 
 
@@ -15,7 +17,7 @@ iOS 端强力专业的 HTTPS 抓包分析工具 - Thor
 ### 特点
 
 - 独创的过滤器筛选技术（f4thor），让你一键得到目标数据
-- 最全的 HTTP 数据自动解析及分析支持
+- 最全面的 HTTP body 解析，预览及分析支持
 - 全面专业的数据格式导出支持
 - 超强的性能和高稳定性让 iOS9 也能发挥极致
 
@@ -72,4 +74,4 @@ HTTP(S) 抓包：
 - 请求包支持文本备注和收藏
 
 
-**暂不支持抓取 TCP，UDP 流量**
+**不支持抓取 TCP，UDP 流量**

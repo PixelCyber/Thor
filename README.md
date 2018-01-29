@@ -5,14 +5,17 @@
 Thor - Professional HTTPS sniffing and analyzing tool on iOS.
 [Download from App store](https://itunes.apple.com/app/id1210562295)
 
+[Introduction in Product Hunt](https://www.producthunt.com/posts/thor)
+
 Read in other language: [简体中文](README-zh-Hans.md).
 
 
 ### Summary
-- filtering packets by flexible rules
-- HTTP body auto decoding
-- sniffer packets exporting
-- even iOS9 was supported with high performance
+
+- Filtering packets by flexible rules
+- HTTP body auto decoding to preview
+- Sniffer packets exporting
+- Even iOS9 was supported with high performance
 
 
 ![](https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/e4/49/0b/e4490b36-aa48-da25-39c2-ae987b18b435/source/230x0w.jpg)
