@@ -76,13 +76,13 @@ Thor 实现的 HTTPS 解析方式是 MITM （中间人欺骗）：需要用 Thor
 
 ### 5、常见问题
 
-* [App 中的音视频无法抓取](qsa.md)
+<!-- * [App 中的音视频无法抓取](qsa.md) -->
 
 * [如何在过滤器中设置更全面的参数](qsa.md)
 
 * [iOS9 抓包秒断](qsa.md)
 
-* [手机上抓到的商店 ipa 为什么不能安装](qsa.md)
+<!-- * [手机上抓到的商店 ipa 为什么不能安装](qsa.md) -->
 
 * [iOS11 证书无法信任](qsa.md)
 
@@ -96,8 +96,8 @@ Thor 实现的 HTTPS 解析方式是 MITM （中间人欺骗）：需要用 Thor
 	* [Thor 新手教程一](http://mp.weixin.qq.com/s/ixebNPUDewr1safroXVbIQ)
 	* [Thor 新手教程二](http://mp.weixin.qq.com/s/XAFCl0zrODptuvgRrsR2xQ)
 
-* [抓取『强』外的视频 by 贝多拉拉@鲜柚](http://i.apptao.com/s/405981958)
+<!-- * [抓取『强』外的视频 by 贝多拉拉@鲜柚](http://i.apptao.com/s/405981958) -->
 
-* [新浪微博 APP GIF 图片抓取](iOS_Thor_GIF_weibo/iOS_Thor_GIF_weibo.md)
+<!-- * [新浪微博 APP GIF 图片抓取](iOS_Thor_GIF_weibo/iOS_Thor_GIF_weibo.md) -->
 
-* [抓取秒拍视频](http://v.youku.com/v_show/id_XMjY1OTM3MTQ0NA==.html?f=49309652&spm=a2hzp.8244740.userfeed.5!2~5~5~5!3~5~A)
+<!-- * [抓取秒拍视频](http://v.youku.com/v_show/id_XMjY1OTM3MTQ0NA==.html?f=49309652&spm=a2hzp.8244740.userfeed.5!2~5~5~5!3~5~A) -->
