@@ -14,7 +14,8 @@ HTTPS decryption need the "Thor SSL CA" installed and trusted by iOS system to p
  A root certificate to perform a MiTM for decoding HTTPS traffics is an unique and standard common view and technology. 
 
 
-The "Thor SSL CA" certificate used in Thor for HTTPS decoding is safe and privacy security, it is generated randomly when Thor first launched and different between devices and users, and stored in app local keychain only.
+"Thor SSL CA" certificate used in Thor for HTTPS decoding is safe and privacy security, it is generated randomly when Thor first launched and stored in app local keychain only.
+Certificates between devices or users are different.
 
 "Thor SSL CA" certificate is unnecessary, if you don't need HTTPS decryption.
 
@@ -34,3 +35,23 @@ Thor is a HTTP sniffer, a source of HTTP traffics will be necessary.
 Thor used a VPN tunnel to set up a source of HTTP traffics from both WiFi and cellular of local device.
 
 All traffics sniffed by Thor stored in app local only, no records will be uploaded to remote server. (Even Thor doesn't have a remote server or something like it, it is totally a local sniffer tool) 
+
+
+### 1. Filter in Thor
+
+* **Session Filter**: filter you selected in homepage. It matches keywords or patterns in `Request Headers`.
+
+
+* **Packet Filter**: filter you selected in packets list. It matches keywords or patterns in `Request Headers`, `Response Headers` and `Response Body` data type.
+
+
+* Export & Import
+	* **f4thor**: file type for `Session Filter` and `Packet Filter`. You can export .f4thor files and share them to anyone or import .f4thor files from someone.
+
+	* **p4thor**: file type for Thor packet records. You can export packets as .p4thor files to backup or share to others who can import and analyze them in Thor.
+
+	* **har**: standard HTTP archive file is supported in Thor.
+
+	* **cURL**: Thor can export requests as curl commands.
+
+
