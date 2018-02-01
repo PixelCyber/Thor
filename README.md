@@ -1,4 +1,4 @@
-## Thor for iOS
+## Thor HTTP Sniffer for iOS
 
 ![](thor_logo.jpg)
 
