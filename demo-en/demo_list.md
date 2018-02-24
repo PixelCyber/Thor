@@ -1,4 +1,4 @@
-## Thor FQA
+## Thor FAQ
 
 <!-- ### -1、申请 TestFlight 免费体验资格
 
