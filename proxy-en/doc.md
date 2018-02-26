@@ -1,18 +1,18 @@
 ## Sniffer Proxy FAQ
 
-用于局域网中（通常是 WiFi）其它设备的抓包。
+Sniff other devices in the same LAN with Thor.
 
 
-### 可以抓哪些设备
+### What can be sniffed by Thor
 
-所有支持 HTTP 代理设置的设备和应用，如：电脑，其它手机或平板，支持 HTTP 代理的机顶盒或者游戏主机。
+Devices or applications support HTTP Proxy, such as Mac/PC, iOS device, Android device, PS4/Xbox etc.
 
 
 ### Browser & System HTTP Proxy Configuration
 
 * **macOS HTTP proxy settings**
 
-The macOS proxy settings are configured in the advanced areas of the Network panel in the System Preferences.
+System Preferences > Network > Choose a network to configure > Advanced > Proxy.
 
 
 * **Windows / Internet Explorer HTTP proxy settings**
@@ -44,15 +44,26 @@ Some Android devices have HTTP proxy settings. On the Nexus S it is hidden; you 
 
 * macOS
 
-Export "Thor SSL CA" certificate (.der) of Thor to mac, then install and trust it in Keychain app.
+Export "Thor SSL CA" certificate (.der) to mac, then install and trust it in Keychain app.
+
+Double click "Thor SSL CA" on macOS > Find it in Keychain > Get Info > Always Trust.
 
 
 * Windows
 
+Export "Thor SSL CA" certificate (.der) to Windows, then install and trust it in ` Trusted Root Certification Authorities store`.
+
+
 * iOS Device
 
-Send a email with "Thor SSL CA" certificate (.der) attatched of Thor to target iOS device's Mail app, then tap attatchment in mail in target device, install and trust it in iOS system.
+	* Send a email with "Thor SSL CA" certificate (.der) attatched of Thor to target iOS device's Mail app, then tap attatchment in mail in target device, install and trust it in iOS system.
+
+	* Export "Thor SSL CA" certificate (.der) to target device and save it to File app > iCloud Driver, then install it in iCloud Driver of File app.
 
 
-* Android Device
+<!-- * Android Device -->
+
+* Mozilla Firefox
+
+Preferences > Options > Privacy & Security > Certificates > View Certificates > Certificate Authority > click Import button in bottom and import your "Thor SSL CA" > Check all the trust options > Confirm
 

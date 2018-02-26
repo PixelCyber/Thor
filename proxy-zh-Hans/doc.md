@@ -1,58 +1,82 @@
-## Sniffer Proxy FAQ
+## 抓包代理使用帮助
 
-用于局域网中（通常是 WiFi）其它设备的抓包。
+用于对局域网中（通常是 WiFi）其它设备进行抓包。
 
 
 ### 可以抓哪些设备
 
-所有支持 HTTP 代理设置的设备和应用，如：电脑，其它手机或平板，支持 HTTP 代理的机顶盒或者游戏主机。
+所有支持 HTTP 代理设置的设备和应用，如：电脑、其它手机或平板、智能机顶盒、游戏主机、其它联网智能设备。
 
 
-### Browser & System HTTP Proxy Configuration
+### 浏览器和系统 HTTP 代理配置
 
-* **macOS HTTP proxy settings**
+* **mac 系统 HTTP 代理设置**
 
-The macOS proxy settings are configured in the advanced areas of the Network panel in the System Preferences.
+系统偏好设置 > 网络 > 选择你要配置的网络 > 高级 > 代理.
 
+注：如果要抓取 HTTPS 流量，则『安全网页代理（HTTPS）』也要勾选。
+ 
 
-* **Windows / Internet Explorer HTTP proxy settings**
+* **Windows / IE 浏览器 HTTP 代理设置**
 
-The Windows proxy settings are configured in the Internet Options control panel on the Connections tab.
-Microsoft Edge has an additional setting that you may need to make by browsing to about:flags.
+打开 IE 浏览器 > 点击“设置”图标 > 选择“Internet 选项” > 点击”连接“选项卡，再点击”局域网设置“ > 在“局域网设置”中，勾选“为 LAN 使用代理服务器” > 填写 Thor 里给出的地址和端口 > 确定。
 
-
-* **Mozilla Firefox HTTP proxy settings**
-
-Configure Firefox to use your system proxy settings. In Firefox, go to Preferences > Advanced > Network > Connection Mozilla Firefox can now be configured to use the system proxy settings.
-
-Check your Firefox proxy settings in Preferences > Advanced > Network > Connection and press the Settings button. Then choose "Use system proxy settings".
+Microsoft Edge 浏览器需要打开 `about:flags` 进行额外配置。
 
 
-* **iOS Device HTTP proxy Settings**
+* **Mozilla Firefox 浏览器 HTTP 代理设置**
 
-Go to the Settings app, tap Wi-Fi, find the network you are connected to and then tap it to configure the network. Scroll down to the HTTP Proxy setting, tap Manual. Enter the IP address of your Thor in the Server field, and the port on in the Port field (usually 8423). Leave Authentication set to Off.
+配置 Firefox 使用系统代理设置。
 
-Remember to disable the HTTP Proxy in your Settings when you stop using Thor, otherwise you'll get confusing network failures in your applications!
+打开 Firefox > 设置 > 高级 > 网络 > 连接 > 点击设置 > 使用系统代理设置
 
 
-* **Android Device HTTP proxy Settings**
+* **iOS 设备 HTTP 代理设置**
 
-Some Android devices have HTTP proxy settings. On the Nexus S it is hidden; you can access the HTTP proxy settings by opening the Voice Dialler app and saying "proxy". On some Samsung devices you can access proxy settings by long-pressing on the network name in the WiFi configuration.
+系统设置 > 无线局域网 > 选择要配置的 Wi-FI 右边的感叹号 > HTTP 代理 > 手动 > 填入 Thor 中的监听地址
+
+抓包结束后，需要关闭此处的 HTTP 代理设置，否则手机网络不通。
+
+
+* **Android 设备 HTTP 代理设置**
+
+部分 Android 设备没有 HTTP 代理设置入口，可以通过语音助手唤出『代理 』入口。
+
+有的三星手机可以通过长按网络名称进行代理配置。
 
 
 ### Trust Thor SSL CA on your device
 
-* macOS
+* mac 系统
 
-Export "Thor SSL CA" certificate (.der) of Thor to mac, then install and trust it in Keychain app.
+从 Thor 中导出 "Thor SSL CA" 证书 (.der) 到 mac。
+
+双击或拖拽证书到钥匙串安装 > 在钥匙串中找到 > 显示简介 > 选择始终信任
 
 
 * Windows
 
-* iOS Device
+从 Thor 中导出 "Thor SSL CA" 证书 (.der) 到 Windows。
 
-Send a email with "Thor SSL CA" certificate (.der) attatched of Thor to target iOS device's Mail app, then tap attatchment in mail in target device, install and trust it in iOS system.
+双击安装 > 选择“将所有的证书放入下列存储”，再点“浏览” > 选择“受信任的根证书颁发机构”，点确定 > 下一步，完成 > 在弹出的警告对话框中点“是”
 
 
-* Android Device
+* iOS 设备
+
+	* 系统邮箱安装：从 Thor 中导出 "Thor SSL CA" 证书 (.der) 选择邮件发送到目标设备 > 在目标设备的系统邮箱中收件，并点击附件安装。
+
+	* 系统文件应用安装：从 Thor 中导出 "Thor SSL CA" 证书 (.der) 并发送到目标设备 > 在目标设备中保存证书到系统文件应用，iCloud 云盘中 > 打开系统文件应用，找到云盘中的证书 > 点击安装。
+
+	注：iOS 10 以后系统在证书安装后，是已验证状态，并非已信任，需要在『系统设置 > 通用 > 关于本机 > 证书信任设置』信任。
+
+
+<!-- * Android Device -->
+
+* Mozilla Firefox 浏览器
+
+从 Thor 中导出 "Thor SSL CA" 证书 (.der) 到电脑。
+
+由于 Firefox 浏览器自己有一套证书管理的系统，所以我们需要单独为 Firefox 浏览器导入证书。
+
+打开 Firefox > 点击 “选项” 打开设置界面 > 选择页面左侧的“隐私与安全” > 把右侧页面滚动到底部，点击“查看证书” > 打开证书管理器后，选择“证书机构”选项卡，点击下面的“导入”按钮导入Thor导出的证书 > 在弹出的对话框中，勾选所有信任项，然后点“确定” > 再在证书管理器中点“确定”
 
