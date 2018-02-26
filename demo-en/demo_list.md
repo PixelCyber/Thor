@@ -5,6 +5,12 @@
 免费体验 7 天 TF 
 问卷填写: https://wj.qq.com/s/1607760/e57d -->
 
+
+### -1、Sniff HTTP traffic on other device with Thor
+
+[Sniffer Proxy FAQ](../proxy-en/doc.md)
+
+
 ### 0. HTTPS decryption
 
 #### Why need a "Thor SSL CA" certificate

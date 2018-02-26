@@ -8,71 +8,70 @@
 所有支持 HTTP 代理设置的设备和应用，如：电脑、其它手机或平板、智能机顶盒、游戏主机、其它联网智能设备。
 
 
-### 浏览器和系统 HTTP 代理配置
+### 1. 浏览器和系统 HTTP 代理配置
 
-* **mac 系统 HTTP 代理设置**
+#### mac 系统 HTTP 代理设置
 
 系统偏好设置 > 网络 > 选择你要配置的网络 > 高级 > 代理.
 
 注：如果要抓取 HTTPS 流量，则『安全网页代理（HTTPS）』也要勾选。
  
 
-* **Windows / IE 浏览器 HTTP 代理设置**
+#### Windows / IE 浏览器 HTTP 代理设置
 
 打开 IE 浏览器 > 点击“设置”图标 > 选择“Internet 选项” > 点击”连接“选项卡，再点击”局域网设置“ > 在“局域网设置”中，勾选“为 LAN 使用代理服务器” > 填写 Thor 里给出的地址和端口 > 确定。
 
 Microsoft Edge 浏览器需要打开 `about:flags` 进行额外配置。
 
 
-* **Mozilla Firefox 浏览器 HTTP 代理设置**
+#### Mozilla Firefox 浏览器 HTTP 代理设置
 
 配置 Firefox 使用系统代理设置。
 
 打开 Firefox > 设置 > 高级 > 网络 > 连接 > 点击设置 > 使用系统代理设置
 
 
-* **iOS 设备 HTTP 代理设置**
+#### iOS 设备 HTTP 代理设置
 
 系统设置 > 无线局域网 > 选择要配置的 Wi-FI 右边的感叹号 > HTTP 代理 > 手动 > 填入 Thor 中的监听地址
 
 抓包结束后，需要关闭此处的 HTTP 代理设置，否则手机网络不通。
 
 
-* **Android 设备 HTTP 代理设置**
+#### Android 设备 HTTP 代理设置
 
 部分 Android 设备没有 HTTP 代理设置入口，可以通过语音助手唤出『代理 』入口。
 
 有的三星手机可以通过长按网络名称进行代理配置。
 
 
-### Trust Thor SSL CA on your device
+### 2. Trust Thor SSL CA on your device
 
-* mac 系统
+#### mac 系统
 
 从 Thor 中导出 "Thor SSL CA" 证书 (.der) 到 mac。
 
 双击或拖拽证书到钥匙串安装 > 在钥匙串中找到 > 显示简介 > 选择始终信任
 
 
-* Windows
+#### Windows
 
 从 Thor 中导出 "Thor SSL CA" 证书 (.der) 到 Windows。
 
 双击安装 > 选择“将所有的证书放入下列存储”，再点“浏览” > 选择“受信任的根证书颁发机构”，点确定 > 下一步，完成 > 在弹出的警告对话框中点“是”
 
 
-* iOS 设备
+#### iOS 设备
 
-	* 系统邮箱安装：从 Thor 中导出 "Thor SSL CA" 证书 (.der) 选择邮件发送到目标设备 > 在目标设备的系统邮箱中收件，并点击附件安装。
+* 系统邮箱安装：从 Thor 中导出 "Thor SSL CA" 证书 (.der) 选择邮件发送到目标设备 > 在目标设备的系统邮箱中收件，并点击附件安装。
 
-	* 系统文件应用安装：从 Thor 中导出 "Thor SSL CA" 证书 (.der) 并发送到目标设备 > 在目标设备中保存证书到系统文件应用，iCloud 云盘中 > 打开系统文件应用，找到云盘中的证书 > 点击安装。
+* 系统文件应用安装：从 Thor 中导出 "Thor SSL CA" 证书 (.der) 并发送到目标设备 > 在目标设备中保存证书到系统文件应用，iCloud 云盘中 > 打开系统文件应用，找到云盘中的证书 > 点击安装。
 
 	注：iOS 10 以后系统在证书安装后，是已验证状态，并非已信任，需要在『系统设置 > 通用 > 关于本机 > 证书信任设置』信任。
 
+<!-- #### Android Device -->
 
-<!-- * Android Device -->
-
-* Mozilla Firefox 浏览器
+#### Mozilla Firefox 浏览器
 
 从 Thor 中导出 "Thor SSL CA" 证书 (.der) 到电脑。
 

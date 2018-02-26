@@ -1,9 +1,15 @@
 ## Thor 的使用技巧
 
-### -1、申请 TestFlight 免费体验资格
+### -2、申请 TestFlight 免费体验资格
 
 免费体验 7 天 TF 
 问卷填写: https://wj.qq.com/s/1607760/e57d
+
+
+### -1、抓取其它设备的 HTTP 流量
+
+[抓包代理使用帮助](../proxy-zh-Hans/doc.md)
+
 
 
 ### 0、HTTPS 解析配置

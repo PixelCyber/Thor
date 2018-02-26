@@ -16,6 +16,7 @@ Read in other language: [简体中文](README-zh-Hans.md).
 - HTTP body auto decoding to preview
 - Sniffer packets exporting
 - Even iOS9 was supported with high performance
+- Sniff HTTP traffic on other device in same LAN with Thor
 
 
 ![](https://is4-ssl.mzstatic.com/image/thumb/Purple128/v4/e4/49/0b/e4490b36-aa48-da25-39c2-ae987b18b435/source/230x0w.jpg)
