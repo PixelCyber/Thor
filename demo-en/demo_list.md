@@ -15,7 +15,7 @@
 
 #### Why need a "Thor SSL CA" certificate
 
-HTTPS decryption need the "Thor SSL CA" installed and trusted by iOS system to perform a MiTM for HTTPS traffics.
+HTTPS decryption need the "Thor SSL CA" installed and trusted by system to perform a MiTM for HTTPS traffics.
 
  A root certificate to perform a MiTM for decoding HTTPS traffics is an unique and standard common view and technology. 
 
@@ -28,7 +28,7 @@ Certificates between devices or users are different.
 
 #### Trust "Thor SSL CA" in iOS system
 
-You need trust a CA manully after it was installed in `Profiles` since iOS10, as below
+You need trust a CA manually after it was installed in `Profiles` since iOS10, as below
 
 
 `Settings > General > About > Certificate Trust Settings`

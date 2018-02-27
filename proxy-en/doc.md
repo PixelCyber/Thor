@@ -1,36 +1,41 @@
 ## Sniffer Proxy FAQ
 
-Sniff HTTP traffic on other devices in the same LAN with Thor.
+Sniff and debug HTTP traffic on other devices in same LAN with Thor.
 
 
-### What can be sniffed by Thor
+### What can be sniffed with Thor
 
-Devices or applications support HTTP Proxy, such as Mac/PC, iOS device, Android device, PS4/Xbox etc.
+Devices or applications support HTTP Proxy, such as Mac/PC, iOS device, Android device, PS/Xbox, etc.
 
 
 ### 1. Browser & System HTTP Proxy Configuration
 
 #### macOS HTTP proxy settings
 
-System Preferences > Network > Choose a network to configure > Advanced > Proxy.
+a. Go to `System Preferences > Network > Choose a network to configure > Advanced > Proxies`
+
+b. Check Web Proxy (HTTP) and Secure Web Proxy (HTTPS)
+
+c. Enter proxy server address and port of Thor
 
 
 #### Windows / Internet Explorer HTTP proxy settings
 
-The Windows proxy settings are configured in the Internet Options control panel on the Connections tab.
-Microsoft Edge has an additional setting that you may need to make by browsing to about:flags.
+Network > Connections > Internet Options control panel
+
+Microsoft Edge has an additional setting that you may need to make by browsing to `about:flags`.
 
 
 #### Mozilla Firefox HTTP proxy settings
 
-Configure Firefox to use your system proxy settings. In Firefox, go to Preferences > Advanced > Network > Connection Mozilla Firefox can now be configured to use the system proxy settings.
+Configure Firefox to use your system proxy settings. 
 
-Check your Firefox proxy settings in Preferences > Advanced > Network > Connection and press the Settings button. Then choose "Use system proxy settings".
+In Firefox, go to Preferences > General > HTTP Proxy > Mozilla Firefox can now be configured to use the system proxy settings.
 
 
 #### iOS Device HTTP proxy Settings
 
-Go to the Settings app, tap Wi-Fi, find the network you are connected to and then tap it to configure the network. Scroll down to the HTTP Proxy setting, tap Manual. Enter the IP address of your Thor in the Server field, and the port on in the Port field (usually 8423). Leave Authentication set to Off.
+Go to `Settings app > Wi-Fi > find the network you are connected to and then tap it to configure the network > Scroll down to the HTTP Proxy setting > tap Manual > Enter the proxy address and port of Thor`
 
 Remember to disable the HTTP Proxy in your Settings when you stop using Thor, otherwise you'll get confusing network failures in your applications!
 
@@ -41,6 +46,12 @@ Some Android devices have HTTP proxy settings. On the Nexus S it is hidden; you 
 
 
 ### 2. Trust Thor SSL CA on your device
+
+"Thor SSL CA" certificate used in Thor for HTTPS decoding is safe and privacy security, it is generated randomly when Thor first launched and stored in app local keychain only.
+Certificates between devices or users are different.
+
+"Thor SSL CA" certificate is unnecessary, if you don't need HTTPS decryption.
+
 
 #### macOS
 
@@ -66,5 +77,7 @@ Export "Thor SSL CA" certificate (.der) to Windows, then install and trust it in
 
 #### Mozilla Firefox
 
-Preferences > Options > Privacy & Security > Certificates > View Certificates > Certificate Authority > click Import button in bottom and import your "Thor SSL CA" > Check all the trust options > Confirm
+Mozilla Firefox has its own Certificate Authority, Certificate Authority of system would not work on it.
+
+Preferences > Security & Privacy > View Certificates > Certificate Authority > click Import button in bottom and import your "Thor SSL CA" > Check all the trust options > Confirm
 
