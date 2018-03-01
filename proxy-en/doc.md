@@ -14,7 +14,7 @@ Devices or applications support HTTP Proxy, such as Mac/PC, iOS device, Android 
 
 a. Go to `System Preferences > Network > Choose a network to configure > Advanced > Proxies`
 
-b. Check Web Proxy (HTTP) and Secure Web Proxy (HTTPS)
+b. Check `Web Proxy (HTTP)` and `Secure Web Proxy (HTTPS)`
 
 c. Enter proxy server address and port of Thor
 
