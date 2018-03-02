@@ -28,21 +28,23 @@ Microsoft Edge has an additional setting that you may need to make by browsing t
 
 #### Mozilla Firefox HTTP proxy settings
 
-Configure Firefox to use your system proxy settings. 
-
-In Firefox, go to Preferences > General > HTTP Proxy > Mozilla Firefox can now be configured to use the system proxy settings.
+Open Firefox > Preferences > General > HTTP Proxy > choose the system proxy settings or others.
 
 
 #### iOS Device HTTP proxy Settings
 
-Go to `Settings app > Wi-Fi > find the network you are connected to and then tap it to configure the network > Scroll down to the HTTP Proxy setting > tap Manual > Enter the proxy address and port of Thor`
+Settings > Wi-Fi > find the network you are connected to and then tap it to configure the network > scroll down to the HTTP Proxy setting > tap Manual > enter the proxy address and port of Thor
 
-Remember to disable the HTTP Proxy in your Settings when you stop using Thor, otherwise you'll get confusing network failures in your applications!
+<!-- Remember to disable the HTTP Proxy in your Settings app when you stop Thor sniffer, otherwise you'll get confusing network failures in your applications! -->
 
 
 #### Android Device HTTP proxy Settings
 
-Some Android devices have HTTP proxy settings. On the Nexus S it is hidden; you can access the HTTP proxy settings by opening the Voice Dialler app and saying "proxy". On some Samsung devices you can access proxy settings by long-pressing on the network name in the WiFi configuration.
+Most Android devices have HTTP proxy settings, just enter the proxy address and port of Thor in it.
+
+<!-- On the Nexus S HTTP proxy is hidden, you can access the HTTP proxy settings by opening the Voice Dialler app and saying "proxy". 
+
+On some Samsung devices you can access proxy settings by long-pressing on the network name in the WiFi configuration. -->
 
 
 ### 2. Trust Thor SSL CA on your device
