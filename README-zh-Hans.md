@@ -67,7 +67,9 @@ Thor 的版本已经规划到 1.7 （现在是 1.3），接下来的版本会陆
 
 - 填写问卷：[https://wj.qq.com/s/1607760/e57d](https://wj.qq.com/s/1607760/e57d)
 
-[**Thor 的使用技巧 >>**](demo-zh-Hans/demo_list.md)
+[**使用技巧 >>**](tips-zh-Hans/dev_tip.md)
+
+[**常见问题 >>**](demo-zh-Hans/demo_list.md)
 
 
 ### 功能
