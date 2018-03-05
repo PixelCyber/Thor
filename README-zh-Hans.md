@@ -66,7 +66,7 @@ iOS 端强力专业的 HTTPS 抓包分析工具 - Thor
 
 Thor 独创的 p4thor 记录格式让包记录协作分析和共享备份变得简单快捷
 ```
-[抓包记录导出](res/packet_export.jpg)
+[抓包记录导出导入](res/packet_export.jpg)
 
 ![](res/thumbnail/packet_export.jpg)
 
