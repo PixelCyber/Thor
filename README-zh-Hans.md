@@ -26,6 +26,7 @@ iOS 端强力专业的 HTTPS 抓包分析工具 - Thor
 无需电脑随时抓包，购买一次随处使用，过滤器配置轻松复用
 ```
 [wifi 代理设置](res/wifi_proxy.jpg)
+
 ![](res/thumbnail/wifi_proxy.jpg)
 
 - 独创的过滤器筛选技术（f4thor），让你一键得到目标数据
