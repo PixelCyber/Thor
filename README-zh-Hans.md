@@ -25,18 +25,16 @@ iOS 端强力专业的 HTTPS 抓包分析工具 - Thor
 ```
 无需电脑随时抓包，购买一次随处使用，过滤器配置轻松复用
 ```
-![](res/wifi_proxy.jpg)
+![](res/thumbnail/wifi_proxy.jpg)
 
 - 独创的过滤器筛选技术（f4thor），让你一键得到目标数据
 ```
 得益于 Thor 灵活全面的过滤器和筛选器配置规则，数据过滤和数据分析从未如此简单
 导出自己的过滤器配置，抓包数据，共享工作成果，即使是小白也能从中受益
 ```
-![](res/session_filter.jpg)
-
-![](res/packet_filter.jpg)
-
-![](res/search.jpg)
+![](res/thumbnail/session_filter.jpg)
+![](res/thumbnail/packet_filter.jpg)
+![](res/thumbnail/search.jpg)
 
 
 - 最全面的 HTTP body 解析，预览及分析支持
@@ -50,7 +48,7 @@ iOS 端强力专业的 HTTPS 抓包分析工具 - Thor
 
 Thor 独创的 p4thor 记录格式让包记录协作分析和共享备份变得简单快捷
 ```
-![](res/packet_export.jpg)
+![](res/thumbnail/packet_export.jpg)
 
 - 超强的性能和高稳定性让 iOS9 也能发挥极致
 ```
