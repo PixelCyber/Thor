@@ -4,14 +4,14 @@
 
 iOS 端强力专业的 HTTPS 抓包分析 & 开发调试利器 - Thor 
 
+其它语言: [English](README.md)
+
 [去 App store 下载](https://itunes.apple.com/app/id1210562295)
 
 另一个作品 Shu，跟 Thor 搭配使用，获得最佳体验, [买 Thor 送 Shu 同捆包](https://itunes.apple.com/app-bundle/id1333938041)
 
 
 [Product Hunt 应用主页](https://www.producthunt.com/posts/thor)
-
-其它语言: [English](README.md)
 
 
 欢迎大家交流讨论抓包技巧：[官推](https://twitter.com/thor_pixelcyber)、[tg 群](https://t.me/thorshu)、[tg 频道](https://t.me/thornotice)
@@ -26,7 +26,7 @@ iOS 端强力专业的 HTTPS 抓包分析 & 开发调试利器 - Thor
 - 填写问卷：[https://wj.qq.com/s/1607760/e57d](https://wj.qq.com/s/1607760/e57d)
 
 
-### 优势：稳，好
+### 优势：稳，好，强
 
 - 免配 HTTPS 域名，自动解析所有 HTTPS 流量
 ```
