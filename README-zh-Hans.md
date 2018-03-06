@@ -37,33 +37,33 @@ iOS 端强力专业的 HTTPS 抓包分析 & 开发调试利器 - Thor
 ```
 无需电脑，随时抓包，手机安装随处使用，还是熟悉的过滤器
 ```
-[wifi 代理设置](res/wifi_proxy.jpg)
+[wifi 代理设置，如图](res/wifi_proxy.jpg)
 
-![](res/thumbnail/wifi_proxy.jpg)
+<!-- ![](res/thumbnail/wifi_proxy.jpg) -->
 
 - 独创的过滤器筛选技术（f4thor），让你一键得到目标数据
 ```
 得益于 Thor 灵活全面的过滤器和筛选器配置规则，数据过滤和数据分析从未如此简单
 导出自己的过滤器配置，抓包数据，共享工作成果，让小白也能享受到他人精心配置的过滤器
 ```
-[过滤器管理及导出导入](res/sessin_filter_export.jpg)
+[过滤器管理及导出导入，如图](res/sessin_filter_export.jpg)
 
-![](res/thumbnail/sessin_filter_export.jpg)
-
-
-[灵活的过滤器配置项](res/session_filter.jpg)
-
-![](res/thumbnail/session_filter.jpg)
+<!-- ![](res/thumbnail/sessin_filter_export.jpg) -->
 
 
-[丰富的筛选器条件](res/packet_filter.jpg)
+[灵活的过滤器配置项，如图](res/session_filter.jpg)
 
-![](res/thumbnail/packet_filter.jpg)
+<!-- ![](res/thumbnail/session_filter.jpg) -->
 
 
-[抓包记录搜索](res/search.jpg)
+[丰富的筛选器条件，如图](res/packet_filter.jpg)
 
-![](res/thumbnail/search.jpg)
+<!-- ![](res/thumbnail/packet_filter.jpg) -->
+
+
+[抓包记录搜索，如图](res/search.jpg)
+
+<!-- ![](res/thumbnail/search.jpg) -->
 
 
 
@@ -78,9 +78,9 @@ iOS 端强力专业的 HTTPS 抓包分析 & 开发调试利器 - Thor
 
 Thor 独创的 p4thor 记录格式让包记录协作分析和共享备份变得简单快捷
 ```
-[抓包记录导出导入](res/packet_export.jpg)
+[抓包记录导出导入，如图](res/packet_export.jpg)
 
-![](res/thumbnail/packet_export.jpg)
+<!-- ![](res/thumbnail/packet_export.jpg) -->
 
 - 超强的性能和高稳定性让 iOS9 也能发挥极致
 ```
