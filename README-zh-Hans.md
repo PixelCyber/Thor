@@ -26,7 +26,7 @@ iOS 端强力专业的 HTTPS 抓包分析 & 开发调试利器 - Thor
 - 填写问卷：[https://wj.qq.com/s/1607760/e57d](https://wj.qq.com/s/1607760/e57d)
 
 
-### 优势
+### 优势：稳，好
 
 - 免配 HTTPS 域名，自动解析所有 HTTPS 流量
 ```
