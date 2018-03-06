@@ -9,13 +9,22 @@ Thor - Professional HTTPS sniffing and analyzing tool on iOS.
 
 Read in other language: [简体中文](README-zh-Hans.md).
 
+[**Tips & Tricks >>**](tips-en/dev_tip.md)
+
+[**FAQ >>**](demo-en/demo_list.md)
+
+
+### Apply for a free trial in TestFlight
+
+- [https://goo.gl/forms/yjFGtkSQl87tbZV93](https://goo.gl/forms/yjFGtkSQl87tbZV93)
+
 
 ### Summary
 
-- Sniff HTTP traffic on other device in same LAN with Thor
+- Sniff HTTP traffic on other device in same LAN with Thor WiFi proxy
 - Filtering packets by flexible rules
 - HTTP body auto decoding to preview
-- Sniffer packets exporting
+- Sniffer packets export as .har or .p4thor
 - Even iOS9 was supported with high performance
 
 
@@ -25,10 +34,6 @@ Read in other language: [简体中文](README-zh-Hans.md).
 ![](https://is2-ssl.mzstatic.com/image/thumb/Purple118/v4/da/9f/36/da9f36c1-bdeb-c095-79a5-293690e7395d/source/230x0w.jpg)
 ![](https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/a4/5d/dd/a45dddaf-09f9-8f39-239d-ad83f4ec2bfe/source/230x0w.jpg)
 
-
-### Apply for a free trial in TestFlight
-
-- [https://goo.gl/forms/yjFGtkSQl87tbZV93](https://goo.gl/forms/yjFGtkSQl87tbZV93)
 
 
 ### Features
