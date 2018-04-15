@@ -2,7 +2,7 @@
 
 ![](thor_logo.jpg)
 
-Thor - Professional HTTPS sniffing and analyzing tool on iOS.
+Thor - Professional HTTP Sniffer/Proxy on iOS.
 [Download from App store](https://itunes.apple.com/app/id1210562295)
 
 [Introduction in Product Hunt](https://www.producthunt.com/posts/thor)
@@ -21,10 +21,11 @@ Read in other language: [简体中文](README-zh-Hans.md).
 
 ### Summary
 
+- Decoding all HTTPS traffices without any hosts configuration
 - Sniff HTTP traffic on other device in same LAN with Thor WiFi proxy
-- Filtering packets by flexible rules
+- Filtering records by flexible rules: block hosts, etc...
 - HTTP body auto decoding to preview
-- Sniffer packets export as .har or .p4thor
+- Records export as .har or .p4thor
 - Even iOS9 was supported with high performance
 
 
@@ -40,8 +41,8 @@ Read in other language: [简体中文](README-zh-Hans.md).
 
 Flexible filter rules:
 
-- filter packets by domains, keywords, methods, protocols
-- group packets by file types, urls, methods, protocols
+- filter records by hosts, keywords, methods, protocols
+- group records by file types, urls, methods, protocols
 - keywords search
 - filter export and import (.f4thor)
 
@@ -52,7 +53,7 @@ Compression file extract (password supported):
 
 Excellent performance:
 
-- thousands of packets logged without pressure
+- thousands of records logged without pressure
 - keeping Thor active all day without any side effect
 
 HTTP(S) sniffer:
@@ -62,11 +63,11 @@ HTTP(S) sniffer:
 - websocket traffic captured
 - HTTP archive export  (.har) 
 - .p4thor export and import
-- packet status updated in real-time
+- records status updated in real-time
 - clear records while sniffing
-- log latest packets on widget in notification center
+- log latest records on widget in notification center
 - split screen on iPad
-- add bookmark or memo for every packet
+- add bookmark or memo for every record
 
 File preview:
 
