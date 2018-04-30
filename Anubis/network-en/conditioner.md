@@ -1,8 +1,8 @@
-## 用 Network Link Conditioner 来模拟不良网络环境
+## Use Network Link Conditioner to simulate adverse networking environments
 
-`Network Link Conditioner` 可以用来精确并持续地模拟不良的网络环境。以最大限度地测试你的 App 在各种网络环境下的运作情况。（**别忘了在完成测试后把它关掉！**）
+`Network Link Conditioner` allows Mac and iOS devices to accurately and consistently simulate adverse networking environments.（**just don’t forget to turn it off after you’re done testing!**）
 
-Network Link Conditioner 可以根据内置的某个预设来改变 iOS 设备的网络环境：
+The Network Link Conditioner can change the network environment of the iOS Simulator according to one of the built-in presets：
 
 * EDGE
 * 3G
@@ -12,35 +12,37 @@ Network Link Conditioner 可以根据内置的某个预设来改变 iOS 设备�
 * Very Bad Network
 * 100% Loss
 
-
-## 在 iOS 设备上启用 Network Link Conditioner
-
-1、在 Xcode 中启用 iOS 设备的开发者模式
-
-* 把你的 iOS 设备连接到 Mac
-
-* 在 Xcode 中，选择 Window > Devices and Simulators（⇧⌘2）
-
-* 在侧边栏中选择你的设备
-
-* 单击 “Use for Development”
+Refer from [http://nshipster.com/network-link-conditioner/](http://nshipster.com/network-link-conditioner/ )
 
 
+## Enable Network Link Conditioner on iOS Devices
 
-2、经过 `1` 的设置后，现在可以在 iOS 设备中进行 `Network Link Conditioner` 配置
+### 1、Enable Develoopment mode on iOS with Xcode
 
+* Connect your iPhone or iPad to your Mac
 
-a. Setting App > Developer > Network Link Conditioner
+* In Xcode, go to Window > Devices and Simulators（⇧⌘2）
 
+* Select your device in the sidebar
 
-![](setting_developer.jpg)
-
-
-b. 开启 `Network Link Conditioner` 并配置你想要的网络环境
-
-![](conditioner_status.jpg)
+* Click “Use for Development”
 
 
-c. 或者自定义预设配置来满足你的定制化需求
 
-![](profile.jpg)
+### 2、Then, Configuration `Network Link Conditioner` on your iOS Device
+
+
+a. Setting App > Developer > Network Link Conditioner.
+
+
+![](../network-zh-Hans/setting_developer.jpg)
+
+
+b. Turn `Network Link Conditioner` on, select a profile for the connection.
+
+![](../network-zh-Hans/conditioner_status.jpg)
+
+
+c. And add or edit profiles.
+
+![](../network-zh-Hans/profile.jpg)
