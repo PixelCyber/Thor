@@ -32,17 +32,17 @@ Refer from [http://nshipster.com/network-link-conditioner/](http://nshipster.com
 ### 2、Then, Configuration `Network Link Conditioner` on your iOS Device
 
 
-a. Setting App > Developer > Network Link Conditioner.
+#### a. Setting App > Developer > Network Link Conditioner.
 
 
 ![](../network-zh-Hans/setting_developer.jpg)
 
 
-b. Turn `Network Link Conditioner` on, select a profile for the connection.
+#### b. Turn `Network Link Conditioner` on, select a profile for the connection.
 
 ![](../network-zh-Hans/conditioner_status.jpg)
 
 
-c. And add or edit profiles.
+#### c. And add or edit profiles.
 
 ![](../network-zh-Hans/profile.jpg)

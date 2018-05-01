@@ -32,17 +32,17 @@ Network Link Conditioner 可以根据内置的某个预设来改变 iOS 设备�
 ### 2、经过 `1` 的设置后，现在可以在 iOS 设备中进行 `Network Link Conditioner` 配置
 
 
-a. Setting App > Developer > Network Link Conditioner
+#### a. Setting App > Developer > Network Link Conditioner
 
 
 ![](setting_developer.jpg)
 
 
-b. 开启 `Network Link Conditioner` 并配置你想要的网络环境
+#### b. 开启 `Network Link Conditioner` 并配置你想要的网络环境
 
 ![](conditioner_status.jpg)
 
 
-c. 或者自定义预设配置来满足你的定制化需求
+#### c. 或者自定义预设配置来满足你的定制化需求
 
 ![](profile.jpg)
