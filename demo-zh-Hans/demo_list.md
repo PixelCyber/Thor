@@ -2,7 +2,7 @@
 
 ### -2、申请 TestFlight 免费体验资格
 
-免费体验 7 天 TF 
+免费体验 20 天 TF 
 问卷填写: https://wj.qq.com/s/1607760/e57d
 
 

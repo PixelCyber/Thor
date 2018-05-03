@@ -31,4 +31,4 @@
 
 * `.p4thor` -> `.har`: import `.p4thor` with Thor, then export it as `.har`
 
-<!-- * .har 格式标准化: -->
+* `.har` standardized: .har file can be standardized by importing to Thor and then exporting a new one
