@@ -14,7 +14,7 @@ iOS 端强力专业的 HTTPS 抓包分析 & 开发调试利器 - Thor
 [Product Hunt 应用主页](https://www.producthunt.com/posts/thor)
 
 
-欢迎大家交流讨论抓包技巧：[官推](https://twitter.com/thor_pixelcyber)、[tg 群](https://t.me/thorshu)、[tg 频道](https://t.me/thornotice)
+欢迎大家交流讨论抓包技巧：[官推](https://twitter.com/thor_pixelcyber)、[tg 群](https://t.me/thorshu)、<!-- [tg 频道](https://t.me/thornotice) -->
 
 [**使用技巧 >>**](tips-zh-Hans/dev_tip.md)
 
