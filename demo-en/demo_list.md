@@ -1,10 +1,5 @@
 ## Thor FAQ
 
-<!-- ### -1、申请 TestFlight 免费体验资格
-
-免费体验 7 天 TF 
-问卷填写: https://wj.qq.com/s/1607760/e57d -->
-
 
 ### -1、Sniff HTTP traffic on other device with Thor
 
