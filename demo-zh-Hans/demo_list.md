@@ -108,12 +108,12 @@ Thor 实现的 HTTPS 解析方式是 MiTM （中间人欺骗）：需要用 Thor
 * [Thor 1.2.2 以后内置筛选器设置](qsa.md)
 
 
-### 6、参考教程
+<!-- ### 6、参考教程 -->
 
-* 微信公众号『艾橙科技』的教程
+<!-- * 微信公众号『艾橙科技』的教程 -->
 
-	* [Thor 新手教程一](http://mp.weixin.qq.com/s/ixebNPUDewr1safroXVbIQ)
-	* [Thor 新手教程二](http://mp.weixin.qq.com/s/XAFCl0zrODptuvgRrsR2xQ)
+	<!-- * [Thor 新手教程一](http://mp.weixin.qq.com/s/ixebNPUDewr1safroXVbIQ) -->
+	<!-- * [Thor 新手教程二](http://mp.weixin.qq.com/s/XAFCl0zrODptuvgRrsR2xQ) -->
 
 <!-- * [抓取『强』外的视频 by 贝多拉拉@鲜柚](http://i.apptao.com/s/405981958) -->
 
