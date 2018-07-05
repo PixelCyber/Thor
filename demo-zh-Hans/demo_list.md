@@ -6,7 +6,7 @@
 问卷填写: https://wj.qq.com/s/1607760/e57d
  -->
 
-### -1、抓取其它设备的 HTTP 流量
+### -1、调试其它设备的 HTTP(S) 请求
 
 [抓包代理使用帮助](../proxy-zh-Hans/doc.md)
 

@@ -35,16 +35,10 @@ Open Firefox > Preferences > General > HTTP Proxy > choose the system proxy sett
 
 Settings > Wi-Fi > find the network you are connected to and then tap it to configure the network > scroll down to the HTTP Proxy setting > tap Manual > enter the proxy address and port of Thor
 
-<!-- Remember to disable the HTTP Proxy in your Settings app when you stop Thor sniffer, otherwise you'll get confusing network failures in your applications! -->
-
 
 #### Android Device HTTP proxy Settings
 
 Most Android devices have HTTP proxy settings, just enter the proxy address and port of Thor in it.
-
-<!-- On the Nexus S HTTP proxy is hidden, you can access the HTTP proxy settings by opening the Voice Dialler app and saying "proxy". 
-
-On some Samsung devices you can access proxy settings by long-pressing on the network name in the WiFi configuration. -->
 
 
 ### 2. Trust Thor SSL CA on your device
