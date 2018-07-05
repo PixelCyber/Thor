@@ -115,5 +115,5 @@
 
 0x2、[TestFlight 申请问卷填写](https://wj.qq.com/s/1607760/e57d)
 
-0x3、过滤器 "WebView 注入调试" 后期优化版 [下载](https://github.com/PixelCyber/Thor/raw/master/tips-zh-Hans/bp_res/WebView_debug.f4thor)（下载后直接用 Thor 打开，安装）
+0x3、过滤器 "WebView 注入调试" [后期优化版下载](https://github.com/PixelCyber/Thor/raw/master/tips-zh-Hans/bp_res/WebView_debug.f4thor)（下载后直接用 Thor 打开，安装）
 
