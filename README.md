@@ -2,7 +2,7 @@
 
 ![](thor_logo.jpg)
 
-Thor - Professional HTTP Sniffer/Proxy on iOS.
+Thor - Professional HTTP(S) Sniffer/Proxy on iOS.
 [Download from App store](https://itunes.apple.com/app/id1210562295)
 
 [Introduction in Product Hunt](https://www.producthunt.com/posts/thor)
@@ -21,11 +21,12 @@ Read in other language: [简体中文](README-zh-Hans.md).
 
 ### Summary
 
-- Decoding all HTTPS traffices without any hosts configuration
-- Sniff HTTP traffic on other device in same LAN with Thor WiFi proxy
-- Filtering records by flexible rules: block hosts, etc...
+- Capture websocket from browser
+- Debug requests with Breakpoint in Filter
+- Unlimited HTTP body size capture
+- Filter records by flexible rules (eg. block hosts)
 - HTTP body auto decoding to preview
-- Records export as .har or .p4thor
+- Sniffed records export and import as .p4thor, .har
 - Even iOS9 was supported with high performance
 
 
@@ -40,41 +41,37 @@ Read in other language: [简体中文](README-zh-Hans.md).
 ### Features
 
 Flexible filter rules:
-
-- filter records by hosts, keywords, methods, protocols
+- filter records by domains, keywords, methods, protocols
 - group records by file types, urls, methods, protocols
 - keywords search
 - filter export and import (.f4thor)
 
 Compression file extract (password supported):
-
 - zip, rar, 7z, tgz, tar, bz, tbz, gz, lz4
 - extracting files in other Apps by opened in Thor
 
 Excellent performance:
-
 - thousands of records logged without pressure
 - keeping Thor active all day without any side effect
 
 HTTP(S) sniffer:
-
+- sniff and debug HTTP traffic on other devices in same LAN
 - decrypting https traffic in real-time
 - HTTP pipelining
 - websocket traffic captured
-- HTTP archive export  (.har) 
+- HTTP archive (.har)  export  and import
+- .har file can be standardized by importing to Thor and then exporting a new one
 - .p4thor export and import
-- records status updated in real-time
+- record status updated in real-time
 - clear records while sniffing
 - log latest records on widget in notification center
 - split screen on iPad
 - add bookmark or memo for every record
 
 File preview:
-
 - all kinds of files in other App can be previewed by opened in Thor
 - certificate preview and format convert (der, pem, p12)
-- certificate install in system
-- font preview
+- font preview with sample text
 
 
 **TCP and UDP traffic will not be sniffed.**

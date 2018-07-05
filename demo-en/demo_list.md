@@ -33,9 +33,9 @@ You need trust a CA manually after it was installed in `Profiles` since iOS10, a
 
 Thor is a HTTP sniffer, a source of HTTP traffics will be necessary.
 
-Thor used a VPN tunnel to set up a source of HTTP traffics from both WiFi and cellular of local device.
+Thor used a VPN tunnel to set up a source of HTTP traffics from both Wi-Fi and cellular of local device.
 
-All traffics sniffed by Thor stored in app local only, no records will be uploaded to remote server. (Even Thor doesn't have a remote server or something like it, it is totally a local sniffer tool) 
+All traffics sniffed by Thor stored in app local only, no records will be uploaded to remote server. (Even Thor doesn't have a remote server or something like it, it's totally a local sniffer tool.) 
 
 
 ### 1. Filter in Thor

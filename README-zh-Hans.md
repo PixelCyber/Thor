@@ -8,7 +8,7 @@ iOS 端强力专业的 HTTPS 抓包分析 & 开发调试利器 - Thor
 
 [去 App store 下载](https://itunes.apple.com/app/id1210562295)
 
-另一个作品 Shu，跟 Thor 搭配使用，获得最佳体验, [买 Thor 送 Shu 同捆包](https://itunes.apple.com/app-bundle/id1333938041)
+另外两个作品 Anubis, Shu，跟 Thor 搭配使用，获得最佳体验, [买 Thor 送 Anubis + Shu 同捆包](https://itunes.apple.com/app-bundle/id1379995720)
 
 
 [Product Hunt 应用主页](https://www.producthunt.com/posts/thor)
@@ -28,12 +28,17 @@ iOS 端强力专业的 HTTPS 抓包分析 & 开发调试利器 - Thor
 
 ### 优势：稳，好，强
 
+- 断点调试
+```
+支持对请求头，请求消息体，响应头，响应消息体的全部内容下断点调试
+```
+
 - 免配 HTTPS 域名，自动解析所有 HTTPS 流量
 ```
 高性能实时解析，自动命中机制，减少 HTTPS 解析失败时对正常网络的影响
 ```
 
-- 支持 WiFi 局域网代理（抓取其他设备的 HTTP 流量）
+- 支持 WiFi 局域网代理（抓取其他设备的 HTTP(S) 流量）
 ```
 无需电脑，随时抓包，手机安装随处使用，还是熟悉的过滤器
 ```
@@ -88,13 +93,7 @@ Thor 独创的 p4thor 记录格式让包记录协作分析和共享备份变得�
 ```
 
 
-### 现有计划
-
-Thor 从去年 3月20日上架起，经过一年的迭代，功能，性能，稳定性已日渐成熟，是时候向大家推荐 Thor 了。
-
-Thor 的版本已经规划到 1.7 （现在是 1.3），接下来的版本会陆续完成`断点调试`，`请求重放`，`过滤器前置后置操作`等更加强大的功能。
-
-
+### 功能
 
 ![](https://is1-ssl.mzstatic.com/image/thumb/Purple111/v4/61/0f/87/610f87ff-4c81-fcc3-4b38-58bce34eed9b/source/230x0w.jpg)
 ![](https://is5-ssl.mzstatic.com/image/thumb/Purple118/v4/0c/f7/b1/0cf7b1f4-9a19-271b-2172-8e3ec941c9af/source/230x0w.jpg)
@@ -103,45 +102,41 @@ Thor 的版本已经规划到 1.7 （现在是 1.3），接下来的版本会陆
 ![](https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/19/a1/d0/19a1d063-2c53-1283-d123-1814e2ef082a/source/230x0w.jpg)
 
 
-### 功能
 
-Thor 无法与其它『微屁恩』同时打开，不支持任何科学上网功能。
+### Thor 是 HTTP 抓包调试工具，不支持任何科学上网功能，请知晓
 
 灵活强大的过滤，筛选规则配置：
-
 - 支持按域名，关键字等配置过滤
 - 抓到的结果支持各种条件的筛选
-- 关键字搜索
+- 关键字搜索（搜索范围：请求头+响应头）
 - 过滤规则 f4thor 导入导出（轻松使用别人分享的过滤器配置）
-- 抓取局域网（WiFi）内其它设备的 HTTP 流量
 
-三方 App 文件查看及解压：
-
+三方 App 文件查看及解压
 - 常见文件查看
-- 证书预览及格式转换导出及安装到系统（der, pem, p12）
+- 证书预览及格式转换及导出（der, pem, p12）
 - 解压(含密码)：zip, rar, 7z, tgz, tar, bz, tbz, gz, lz4
-- 字体文件预览
+- 字体文件显示效果预览
 
 自动解析包数据：
-
-- 自动解析 HTTP 消息体为常见媒体形式
+- 自动解析 HTTP 消息体
+- 文本自动语法高亮
 - 支持导出原始请求数据
 - 包记录添加备注
 
 强悍优异的性能：
-
 - 边抓边看，请求的生命周期状态实时更新
 - 轻松实时记录成千上万个 HTTP 请求
-- 保持整天打开也不会对网络日常使用造成影响
+- 长时间持续抓包也不会对网络日常使用造成影响
 - iOS9 上也能持续稳定工作
 
 HTTP(S) 抓包：
-
+- 本机、WiFi 局域网抓包
 - HTTPS 高性能实时解析
 - HTTP pipelining
 - websocket 流量抓取
 - cURL, .har, .f4thor, p4thor 导入导出
-- 通知中心的 HTTP 抓包 widget 可实时查看最新抓到的包
+- 其它来源的非标准 .har 文件可以导入 thor，再导出，就标准了
+- 通知中心的 HTTP 抓包 widget 可实时查看当前包记录
 - 抓包过程中支持一键清空当前记录
 - iPad 分屏抓包
 - 请求包支持文本备注和收藏
