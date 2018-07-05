@@ -1,4 +1,4 @@
-### 利用 Thor HTTP 抓包的断点调试功能调试 WebView
+### 一种在线调试线上 app 中 WebView 的方法
 
 #### 0x1、要解决的问题
 
@@ -98,6 +98,15 @@
 #### >> Eruda 调试效果
 
 ![](bp_res/5.jpg) 
+
+
+
+### 参考资料 (排名不分先后)
+
+- [JSBox 的网页调试插件](https://itunes.apple.com/app/id1312014438)
+- [三种解密 HTTPS 流量的方法介绍 by Jerry Qu](https://imququ.com/post/how-to-decrypt-https.html)
+- [eruda - Console for mobile browsers](https://eruda.liriliri.io/)
+- [vConsole by Tencent](https://github.com/Tencent/vConsole)
 
 
 ### Thor 20 天免费试用 TestFlight 申请
