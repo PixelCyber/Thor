@@ -21,7 +21,7 @@ iOS 端强力专业的 HTTPS 抓包分析 & 开发调试利器 - Thor
 [**常见问题 >>**](demo-zh-Hans/demo_list.md)
 
 
-### 申请免费体验 Thor 旧版 TestFlight
+### 申请 20 天免费体验 Thor TestFlight
 
 - 填写问卷：[https://wj.qq.com/s/1607760/e57d](https://wj.qq.com/s/1607760/e57d)
 
@@ -32,6 +32,8 @@ iOS 端强力专业的 HTTPS 抓包分析 & 开发调试利器 - Thor
 ```
 支持对请求头，请求消息体，响应头，响应消息体的全部内容下断点调试
 ```
+
+如：[利用断点调试向 WebView 注入调试脚本](tips-zh-Hans/breakpoint.md)
 
 - 免配 HTTPS 域名，自动解析所有 HTTPS 流量
 ```
