@@ -14,7 +14,7 @@
 
 #### 0x4、WebView 调试示例 app
 
-[PPHub For Github](https://itunes.apple.com/app/id1314212521) by [jkpang](https://github.com/jkpang)
+[PPHub For Github](https://itunes.apple.com/app/id1314212521) by [jkpang](https://github.com/jkpang): GitHub 第三方 iOS 客户端
 
 #### 0x5、用到的工具
 
@@ -37,7 +37,7 @@
 
 #### 选择『响应 body 前』
 
-![响应 body 前 ](bp_res/8.jpg)
+![响应 body 前](bp_res/8.jpg)
 
 
 #### 0x3、在匹配规则中加入表达式进行替换，以注入 vConsole 工具
@@ -76,7 +76,11 @@
 
 #### 0x1、打开 Thor > 选择 "WebView 注入调试" 过滤器，并启动
 
-![](bp_res/9.jpg)   ![](bp_res/3.jpg) 
+![](bp_res/9.jpg)  
+
+#### 启动抓包
+
+![](bp_res/3.jpg) 
 
 #### 0x2、打开 PPHub
 
@@ -86,12 +90,17 @@
 
 ![](bp_res/1.jpg) 
 
-#### 下面是调试工具使用效果
 
-![](bp_res/6.jpg)   ![](bp_res/5.jpg) 
+#### vConsole 调试效果
+
+![](bp_res/6.jpg)   
+
+#### Eruda 调试效果
+
+![](bp_res/5.jpg) 
 
 
-### Thor 20 天免费试用 TestFlight 申请地址
+### Thor 20 天免费试用 TestFlight 申请
 
 0x1、[Thor 的详细介绍](https://github.com/PixelCyber/Thor/blob/master/README-zh-Hans.md)
 
