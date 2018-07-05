@@ -14,7 +14,7 @@
 
 ##### 0x4、WebView 调试示例 app
 
-[PPHub For Github](https://itunes.apple.com/app/id1314212521)
+[PPHub For Github](https://itunes.apple.com/app/id1314212521) by [jkpang](https://github.com/jkpang)
 
 ##### 0x5、用到的工具
 
@@ -72,10 +72,13 @@
 ##### 0x2、打开 PPHub 并找到一个 WebView, 等待加载完成
 
 ![](bp_res/2.jpg) ![](bp_res/1.jpg) 
+
+下面是调试工具效果
+
 ![](bp_res/6.jpg) ![](bp_res/5.jpg) 
 
 
-#### 下面是 Thor 的 20 天免费试用 TestFlight 申请地址和详细介绍
+#### Thor 20 天免费试用 TestFlight 申请地址
 
 0x1、[Thor 的详细介绍](https://github.com/PixelCyber/Thor/blob/master/README-zh-Hans.md)
 
