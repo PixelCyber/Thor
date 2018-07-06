@@ -1,28 +1,30 @@
-### 一种在线调试线上 app 中 WebView 的方法
+### iOS 调试线上 app 中 WebView 的方法
 
 #### 0x1、要解决的问题
 
-工作中时常遇到需要对自己已上线 app 中的 WebView 网页进行一些调试验证，以排除 bug，解决问题。
+工作中时常遇到需要对自己已上线 app 中的 WebView 网页进行一些调试验证的情况，以排查 bug，解决问题。
 
 #### 0x2、解决方案
 
-利用 Thor HTTP 抓包的『断点调试』功能向 WebView 注入调试脚本。
+利用 [Thor HTTP 抓包](https://itunes.apple.com/app/id1210562295) 的『断点调试』功能向 WebView 注入调试脚本。
 
 #### 0x3、技术原理
 
-向目标网页的 HTML 响应中注入调试脚本（文本替换）。
+a. 利用 [HTTP MiTM](https://imququ.com/post/how-to-decrypt-https.html) 截取目标 WebView 的请求，并修改响应后回传。
+
+b. 向目标网页的 HTML 响应中的 body 标签注入调试脚本（文本正则替换）。
 
 #### 0x4、WebView 调试示例 app
 
-[PPHub For Github](https://itunes.apple.com/app/id1314212521) by [jkpang](https://github.com/jkpang): GitHub 第三方 iOS 客户端
+[PPHub For Github](https://itunes.apple.com/app/id1314212521) (by [jkpang](https://github.com/jkpang)): GitHub 第三方 iOS 客户端
 
 #### 0x5、用到的工具
 
 - [Thor HTTP Sniffer](https://itunes.apple.com/app/id1210562295): 抓包及断点调试
 
-- [vConsole](https://github.com/Tencent/vConsole): A lightweight, extendable front-end developer tool for mobile web page.
+- [vConsole 调试脚本](https://github.com/Tencent/vConsole): A lightweight, extendable front-end developer tool for mobile web page.
 
-- [Eruda](https://github.com/liriliri/eruda): Console for mobile browsers.
+- [Eruda 调试脚本](https://github.com/liriliri/eruda): Console for mobile browsers.
 
 
 ### 第一步：在 Thor 中设置过滤器断点
