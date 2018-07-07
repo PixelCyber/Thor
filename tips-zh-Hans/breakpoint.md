@@ -107,6 +107,7 @@ b. 向目标网页的 HTML 响应中的 body 标签注入调试脚本（文本�
 
 - [JSBox 的网页调试插件](https://itunes.apple.com/app/id1312014438)
 - [三种解密 HTTPS 流量的方法介绍 by Jerry Qu](https://imququ.com/post/how-to-decrypt-https.html)
+- [Content Security Policy Level 2 介绍 by Jerry Qu](https://imququ.com/post/content-security-policy-level-2.html)
 - [eruda - Console for mobile browsers](https://eruda.liriliri.io/)
 - [vConsole by Tencent](https://github.com/Tencent/vConsole)
 
