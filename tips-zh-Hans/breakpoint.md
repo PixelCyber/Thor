@@ -4,17 +4,19 @@
 
 工作中时常遇到需要对自己已上线 app 中的 WebView 网页进行一些调试验证的情况，以排查 bug，解决问题。
 
+但是已经在线上的 app 如何能够在不依赖其它代码级 Hook 工具的情况下，进行简单的调试呢？
+
 #### 0x2、解决方案
 
 利用 HTTP 抓包工具 的『断点调试』功能向 WebView 注入调试脚本。这里以 [iOS 上的抓包应用 Thor HTTP Sniffer](https://itunes.apple.com/app/id1210562295) 为例。理论上电脑平台的抓包工具只要支持断点调试（修改 HTTP 响应的能力）都能达成同样的效果。
 
 #### 0x3、技术原理及流程
 
-a. 截获请求：利用 [HTTP MiTM](https://imququ.com/post/how-to-decrypt-https.html) 截取目标 WebView 的请求，在修改响应消息体后再回传。
+a. 截获本机请求：利用 [HTTP MiTM](https://imququ.com/post/how-to-decrypt-https.html) 截取目标 WebView 的请求，在修改响应消息体后再回传。
 
 b. 修改响应消息体：向目标网页的 HTML 响应中的 body 标签注入调试脚本（文本正则替换）。
 
-c. 修改响应头：去掉响应头中 `"Content-Security-Policy"` 字段，以保证注入的调试脚本能正常执行。
+c. 修改响应头：去掉响应头中 `"Content-Security-Policy"` 字段，以保证本机注入的调试脚本能正常执行。
 
 
 #### 0x4、WebView 调试示例 app
