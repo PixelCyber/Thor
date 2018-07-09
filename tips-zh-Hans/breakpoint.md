@@ -6,21 +6,25 @@
 
 #### 0x2、解决方案
 
-利用 [Thor HTTP 抓包](https://itunes.apple.com/app/id1210562295) 的『断点调试』功能向 WebView 注入调试脚本。
+利用 HTTP 抓包工具 的『断点调试』功能向 WebView 注入调试脚本。这里以 [iOS 上的抓包应用 Thor HTTP Sniffer](https://itunes.apple.com/app/id1210562295) 为例。理论上电脑平台的抓包工具只要支持断点调试（修改 HTTP 响应的能力）都能达成同样的效果。
 
-#### 0x3、技术原理
+#### 0x3、技术原理及流程
 
-a. 利用 [HTTP MiTM](https://imququ.com/post/how-to-decrypt-https.html) 截取目标 WebView 的请求，并修改响应后回传。
+a. 截获请求：利用 [HTTP MiTM](https://imququ.com/post/how-to-decrypt-https.html) 截取目标 WebView 的请求，在修改响应消息体后再回传。
 
-b. 向目标网页的 HTML 响应中的 body 标签注入调试脚本（文本正则替换）。
+b. 修改响应消息体：向目标网页的 HTML 响应中的 body 标签注入调试脚本（文本正则替换）。
+
+c. 修改响应头：去掉响应头中 `"Content-Security-Policy"` 字段，以保证注入的调试脚本能正常执行。
+
 
 #### 0x4、WebView 调试示例 app
 
 [PPHub For Github](https://itunes.apple.com/app/id1314212521) (by [jkpang](https://github.com/jkpang)): GitHub 第三方 iOS 客户端
 
+
 #### 0x5、用到的工具
 
-- [Thor HTTP Sniffer](https://itunes.apple.com/app/id1210562295): 抓包及断点调试
+- [Thor HTTP Sniffer](https://itunes.apple.com/app/id1210562295): HTTP 抓包及断点调试。
 
 - [vConsole 调试脚本](https://github.com/Tencent/vConsole): A lightweight, extendable front-end developer tool for mobile web page.
 
