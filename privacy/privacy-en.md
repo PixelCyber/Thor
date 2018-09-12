@@ -16,7 +16,7 @@ Read it online at（[https://github.com/PixelCyber/Thor/blob/master/privacy/priv
 
 - Thor is a HTTP sniffer, a source of HTTP traffics will be necessary. Thor used a VPN tunnel to set up a source of HTTP traffics from both Wi-Fi and cellular of local device. All traffics just forwarded to their original destination addresses with proxy (Not any remote proxy) in Thor local. You can view, delete or share the recorded traffic data as you need. No data will be uploaded to anywhere, it's just stored in app local under your full control.
 
-- Thor will ask you for Photo accesss, when you save data to Photo.
+- Thor will ask you for album accesss, when you save data to album.
 
 
 Thor may update its Privacy Policy from time to time. When we change the policy in a material way, a notice will be posted in app along with the updated Privacy Policy.
