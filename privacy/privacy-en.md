@@ -12,11 +12,11 @@ Read it online at（[https://github.com/PixelCyber/Thor/blob/master/privacy/priv
 
 ### What personal information we collect or access
 
-- Your app receipt: Thor may launch an app purchased receipt validation when you use it, it request App Store to verify the legal purchase state of your app to avoid an pirated app or jailbreak device. 
+- Your app receipt: Thor may request an app purchased receipt validation, it request App Store to verify the legal purchase state of your app to avoid a pirated app or jailbreak device. 
 
-- Thor is a HTTP sniffer, a source of HTTP traffics will be necessary. Thor used a VPN tunnel to set up a source of HTTP traffics from both Wi-Fi and cellular of local device. All traffics just forwarded to their original destination addresses with proxy (Not any remote proxy) in Thor local. You can view, delete or share the recorded traffic data as you need. No data will be uploaded to anywhere, it's just stored in app local under your full control.
+- Thor is a HTTP sniffer, a source of HTTP traffics will be necessary. Thor used a VPN tunnel to set up a source of HTTP traffics from both Wi-Fi and cellular of local device. All traffics just forwarded to their original destination addresses with local HTTP proxy (not any remote proxy) in Thor. You can view, delete or share the recorded traffic data as you need. No data will be uploaded to anywhere, it's just stored in app local under your full control.
 
-- Thor will ask you for album accesss, when you save data to album.
+- Thor will ask you for album accesssing, when you save data to album.
 
 
 Thor may update its Privacy Policy from time to time. When we change the policy in a material way, a notice will be posted in app along with the updated Privacy Policy.
