@@ -16,7 +16,7 @@ Read in other language: [简体中文](README-zh-Hans.md).
 
 ### Apply for a free trial in TestFlight
 
-- [https://goo.gl/forms/yjFGtkSQl87tbZV93](https://goo.gl/forms/yjFGtkSQl87tbZV93)
+- [https://testflight.apple.com/join/wArXdacJ](https://testflight.apple.com/join/wArXdacJ)
 
 
 ### Summary
