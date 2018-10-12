@@ -1,9 +1,15 @@
 ## Guide for Shu 
 
 
-### Group Files
+### File Grouping
 
+"Auto Group" files by types into build-in Folders.
 
+Entries:
+
+* swipe file item > More > Auto Group
+
+* open folder > Edit > Auto Group
 
 
 ### File Sharing
@@ -21,7 +27,7 @@
 
 * Files in Shu -> Sharing: Select files in Shu "File" > Add to "Shared Folder"
 
-*Notice：Files in "Shared Folder" can be shared with iTunes.*
+*Notice: Files in "Shared Folder" can be shared with iTunes.*
 
 
 #### 2. Shu <--> Other Apps
@@ -30,7 +36,7 @@
 `Find export/share entry in other Apps > "Open in Shu" or "Copy to Shu"`
 
 * Photos -> Shu:
-`Select pictures in Photos > Open in Shu > then you can epxort all pictures as a zip file`
+`Select pictures in Photos > Open in Shu > then you can export all pictures as a zip file`
 
 * "File" app on iOS11 -> Shu: drag files in "File" app to Shu directory.
 
@@ -50,5 +56,5 @@
 
 * Custom request headers
 
-
+*Notice: Audio/Video are forbidden to download.*
 
