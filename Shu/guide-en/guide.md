@@ -1,25 +1,49 @@
 ## Guide for Shu 
 
 
-### File Grouping
+### File Managing
 
-"Auto Group" files by types into build-in Folders.
+#### File Grouping
+
+"`Auto Group`" files by types into build-in Folders.
 
 Entries:
 
-* swipe file item > More > Auto Group
+* Swipe a file item > More > `Auto Group`
 
-* open folder > Edit > Auto Group
+* Enter a folder > Edit > `Auto Group`
+
+
+#### File extracting
+
+* Compression file extract (password supported): zip, rar, 7z, tgz, tar, bz, tbz, gz, xz, txz, xar/xip, lz4, tlz, cpio, cpgz...
+
+* Disk image: iso, udf, nrg, cab, wim, dmg, vhd, vmdk, qcow, uefif...
+* File system: ntfs, fat, mbr, gpt, hfs, sfs
+* Package: deb, rpm, crx, xpi, ar, PE file, ELF file, com file
+* E-book, office documents, pdf, sketch
+* Extract frames of tiff, inns, gif, apng, webp
+
+
+#### File converting
+
+* Export text file with different string encoding: GBK, UTF-8, UTF-16...
+* Certificate format conversion (der, pem, p12, base64)
+* ipynb/markdown -> html
+* djvu -> jpg
+* xml, json, plist, yaml convert to each other
+* ps/eps -> pdf
+
 
 
 ### File Sharing
 
-#### 1. Mac/PC/Another Device <--> Shu
+#### Mac/PC/Another Device <-> Shu
 
 * iTunes File Sharing: better performance for huge files.
 `Go to: Mac/PC > iTunes > Your iOS device > File Sharing > Apps > Shu`
 
-* WiFi File Sharing: convenient sharing between devices in the same LAN.
+* Wi-Fi File Sharing: convenient sharing between devices in the same LAN.
 
 * Hotspot File Sharing: convenient sharing between devices in the same hotspot network.
 
@@ -30,7 +54,7 @@ Entries:
 *Notice: Files in "Shared Folder" can be shared with iTunes.*
 
 
-#### 2. Shu <--> Other Apps
+#### Shu <-> Other Apps
 
 * Files in Other Apps -> Shu:
 `Find export/share entry in other Apps > "Open in Shu" or "Copy to Shu"`
@@ -38,11 +62,11 @@ Entries:
 * Photos -> Shu:
 `Select pictures in Photos > Open in Shu > then you can export all pictures as a zip file`
 
-* "File" app on iOS11 -> Shu: drag files in "File" app to Shu directory.
+* "File" app -> Shu: drag files in "File" app to Shu directory.
 
 * Shu -> Other Apps: Select files > export > choose an app to share.
 
-* Share with iTunes or WiFi, if you want to export huge files.*
+* Share with iTunes or Wi-Fi, if you want to export huge files.*
 
 
 
