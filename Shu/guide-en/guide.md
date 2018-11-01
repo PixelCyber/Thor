@@ -22,7 +22,7 @@ Entries:
 * File system: ntfs, fat, mbr, gpt, hfs, sfs
 * Package: deb, rpm, crx, xpi, ar, PE file, ELF file, com file
 * E-book, office documents, pdf, sketch
-* Extract frames of tiff, inns, gif, apng, webp
+* Extract frames of tiff, icns, gif, apng, webp
 
 
 #### File converting
@@ -80,5 +80,5 @@ Entries:
 
 * Custom request headers
 
-*Notice: Audio/Video are forbidden to download.*
+*Notice: Audio/Video can not download.*
 
