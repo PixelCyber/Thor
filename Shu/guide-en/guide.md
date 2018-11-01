@@ -64,7 +64,7 @@ Entries:
 
 * "File" app -> Shu: drag files in "File" app to Shu directory.
 
-* Shu -> Other Apps: Select files > export > choose an app to share.
+* Shu -> Other Apps: Select files > export raw file/export as zip file > choose an app to share.
 
 * Share with iTunes or Wi-Fi, if you want to export huge files.*
 
