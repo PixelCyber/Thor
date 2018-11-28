@@ -1,4 +1,4 @@
-# Shu Privacy Policy
+# Anubis Privacy Policy
 
 Your privacy is important to Anubis. 
 
