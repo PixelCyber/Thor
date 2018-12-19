@@ -6,6 +6,8 @@
 
 如果您因年龄、智力等因素而不具有完全民事行为能力，请在法定监护人的陪同下阅读和判断是否同意本条款。
 
+如果您正在使用本软件的任何版本，且在任何地方任何时间阅读过本条款的任意版本，并继续使用本软件的，即表示您已同意本条款。
+
 本条款内容或者在线存储服务中所涉及的三方品牌及标识提及均为文字引用，与相关品牌及商标无关。
 
 本条款获取地址（[https://github.com/PixelCyber/Thor/blob/master/privacy/termsofservice-zh-Hans.md](https://github.com/PixelCyber/Thor/blob/master/privacy/termsofservice-zh-Hans.md)）

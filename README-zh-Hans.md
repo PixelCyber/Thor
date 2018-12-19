@@ -4,6 +4,8 @@
 
 iOS 端强力专业的 HTTPS 抓包分析 & 开发调试利器 - Thor 
 
+[服务条款 & 免责声明](privacy/termsofservice-zh-Hans.md)
+
 其它语言: [English](README.md)
 
 [去 App store 下载](https://itunes.apple.com/app/id1210562295)
