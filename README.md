@@ -2,12 +2,15 @@
 
 ![](thor_logo.jpg)
 
-Thor - Professional HTTP(S) Sniffer/Proxy on iOS.
+Thor - HTTP Sniffer/Capture on iOS for Network Debug & Inspect.
 [Download from App store](https://itunes.apple.com/app/id1210562295)
 
 [Introduction in Product Hunt](https://www.producthunt.com/posts/thor)
 
-Read in other language: [简体中文](README-zh-Hans.md).
+Read in other language:
+
+[简体中文](README-zh-Hans.md).
+[服务条款 & 免责声明](privacy/termsofservice-zh-Hans.md)
 
 [**Tips & Tricks >>**](tips-en/dev_tip.md)
 

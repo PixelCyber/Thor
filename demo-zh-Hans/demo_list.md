@@ -1,15 +1,11 @@
 ## Thor 的使用技巧
 
-<!-- ### -2、申请 TestFlight 免费体验资格
+[服务条款 & 免责声明](../privacy/termsofservice-zh-Hans.md)
 
-免费体验 20 天 TF，体验结束后将在点击任何抓包记录时提示去苹果商店购买 Thor
-问卷填写: https://wj.qq.com/s/1607760/e57d
- -->
 
-### -1、调试其它设备的 HTTP(S) 请求
+### 调试其它设备的 HTTP(S) 请求
 
 [抓包代理使用帮助](../proxy-zh-Hans/doc.md)
-
 
 
 ### 0、HTTPS 解析配置

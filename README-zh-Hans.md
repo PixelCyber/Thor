@@ -2,7 +2,7 @@
 
 ![](thor_logo.jpg)
 
-iOS 端强力专业的 HTTPS 抓包分析 & 开发调试利器 - Thor 
+Thor - iOS 端强力专业的 HTTPS 抓包分析 & 开发调试利器
 
 [服务条款 & 免责声明](privacy/termsofservice-zh-Hans.md)
 
