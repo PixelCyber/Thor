@@ -1,7 +1,11 @@
-## Thor 的使用技巧
+# Thor 的使用技巧
+
+## 请务必阅读以下相关条款：
 
 [服务条款 & 免责声明](../privacy/termsofservice-zh-Hans.md)
 
+
+## 使用帮助
 
 ### 调试其它设备的 HTTP(S) 请求
 
