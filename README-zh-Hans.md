@@ -16,11 +16,14 @@ Thor - iOS 端强力专业的 HTTPS 抓包分析 & 开发调试利器
 [Product Hunt 应用主页](https://www.producthunt.com/posts/thor)
 
 
-欢迎大家交流讨论抓包技巧：[官推](https://twitter.com/thor_pixelcyber)、[tg 群](https://t.me/thorshu)、<!-- [tg 频道](https://t.me/thornotice) -->
+欢迎大家交流讨论抓包技巧：[官推](https://twitter.com/thor_pixelcyber)、[tg 群](https://t.me/thorshu)<!--、[tg 频道](https://t.me/thornotice) -->
 
-[**使用技巧 >>**](tips-zh-Hans/dev_tip.md)
+* [使用技巧 >>](tips-zh-Hans/dev_tip.md)
+* [常见问题 >>](demo-zh-Hans/demo_list.md)
 
-[**常见问题 >>**](demo-zh-Hans/demo_list.md)
+* [**利用 Thor 调试并防止自己应用被 HTTPS MiTM 的方法  >>**](tips-zh-Hans/ssl_pinning.md): 实施后，用 Thor 调试得到的目标域名记录全是 CONNECT 请求，即为成功。
+
+*Thor 已经在 1.3.6 test flight 版本中支持导入自己的 SSL 证书，因此在应用实施证书验证防止 HTTP MiTM 后，可以选择导入自己的 SSL 证书（含私钥）p12 文件到 Thor，以继续安全地解析相关流量并调试应用。*
 
 
 ### 申请 14 天免费体验 Thor TestFlight
