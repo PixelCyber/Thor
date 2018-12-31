@@ -28,7 +28,7 @@ Thor - iOS 端强力专业的 HTTPS 抓包分析 & 开发调试利器
 
 ### 申请 14 天免费体验 Thor TestFlight
 
-- 点击申请：[https://testflight.apple.com/join/wArXdacJ](https://testflight.apple.com/join/wArXdacJ)
+- 点击申请：[https://testflight.apple.com/join/ftCqFe6D](https://testflight.apple.com/join/ftCqFe6D)
 
 
 ### 优势：稳，好，强
