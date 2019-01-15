@@ -12,6 +12,8 @@ Read it online at（[https://github.com/PixelCyber/Thor/blob/master/Anubis/priva
 
 ### What personal information we collect or access
 
+- Your app receipt: Anubis may request an app purchased receipt validation, it request App Store to verify the legal purchase state of your app to avoid a pirated app or jailbreak device. 
+
 - Since Anubis is a local developer tool, you can view, delete or share test records as you need. Data will not upload anywhere, it's just stored in app local under your full control.
 
 - Anubis will ask you for album accesssing, when you read data from album to build a request.
