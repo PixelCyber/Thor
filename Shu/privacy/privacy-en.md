@@ -12,6 +12,8 @@ Read it online at（[https://github.com/PixelCyber/Thor/blob/master/Shu/privacy/
 
 ### What personal information we collect or access
 
+- Your app receipt: Shu may request an app purchased receipt validation, it request App Store to verify the legal purchase state of your app to avoid a pirated app or jailbreak device. 
+
 - Since Shu is a File Viewer, you can view, delete or share files as you need. Data will not upload anywhere, it's just stored in app local under your full control.
 
 - Shu will ask you for album accesssing, when you save data to album.
