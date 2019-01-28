@@ -16,7 +16,7 @@ Read it online at（[https://github.com/PixelCyber/Thor/blob/master/Shu/privacy/
 
 - Since Shu is a File Viewer, you can view, delete or share files as you need. Data will not upload anywhere, it's just stored in app local under your full control.
 
-- Shu will ask you for album accesssing, when you save data to album.
+- Shu will ask you for album accesssing, when you want to browse album or save data to it.
 
 
 Shu may update its Privacy Policy from time to time. When we change the policy in a material way, a notice will be posted in app along with the updated Privacy Policy.
