@@ -19,7 +19,7 @@ Read in other language:
 
 ### Apply for a free trial in TestFlight
 
-- [https://testflight.apple.com/join/ftCqFe6D](https://testflight.apple.com/join/ftCqFe6D)
+- [https://testflight.apple.com/join/mDz0E3vO](https://testflight.apple.com/join/mDz0E3vO)
 
 
 ### Summary
